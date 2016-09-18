@@ -3,6 +3,8 @@
 To experience just how simple it is to create a GitPitch slideshow
 presentation, follow along with this short tutorial.
 
+> Tutorial also available for [GitLab](https://gitlab.com/gitpitch/in-60-seconds) and [Bitbucket](https://bitbucket.org/gitpitch/in-60-seconds) users.
+
 #### Step 1. Create **PITCHME.md**
 
 Using your preferred code editor create a file called **PITCHME.md**, then add 
