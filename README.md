@@ -1,3 +1,5 @@
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/in-60-seconds/master?grs=github)
+
 # GitPitch In 60 Seconds
 
 To experience just how simple it is to create a GitPitch slideshow
