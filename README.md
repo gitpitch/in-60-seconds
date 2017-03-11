@@ -17,7 +17,7 @@ and save the following Markdown content:
 
 An application architecture for React
 
-#HSLIDE
+---
 
 ### Flux Design
 
@@ -25,7 +25,7 @@ An application architecture for React
 - Stores: Handle State & Logic
 - Views: Render Data via React
 
-#HSLIDE
+---
 
 ![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
 ```
@@ -34,9 +34,9 @@ Before moving on to the next step it's worth taking note of the following:
 
 1. The **PITCHME.md** file name is case sensitive.
 1. The **PITCHME.md** file content is standard Markdown.
-1. The `#HSLIDE` markdown fragment acts as a delimiter between slides.
+1. The `---` markdown fragment acts as a delimiter between slides.
 
-Using `#HSLIDE` is a GitPitch convention, acting as a delimiter to denote the 
+Using `---` is a GitPitch convention, acting as a delimiter to denote the 
 separation between content on different slides in your presentation. You can use 
 [custom delimiters](https://github.com/gitpitch/gitpitch/wiki/Custom-Slide-Delimiters) 
 if you prefer. For this example, when GitPitch processes the Markdown content it 
