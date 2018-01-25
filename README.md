@@ -68,14 +68,19 @@ your slideshow for offline presentation,
 PDF document, or [share](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Sharing) 
 it on social media.
 
-Note, beyond support for standard Markdown on presentation slides, GitPitch 
-delivers a number of features tailored for developers, including support for 
-[code blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), 
-[GitHub GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides), 
-[math formulas](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) 
-along with [image](https://github.com/gitpitch/gitpitch/wiki/Image-Slides), and 
-[video](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) support. The 
-full set of GitPitch features are documented on the 
-[GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki). To see a live 
-slideshow demonstration of these features try out the GitPitch 
-[Kitchen Sink](https://gitpitch.com/gitpitch/kitchen-sink).
+#### Step 4. Promite, Pitch, or Present Absolutely Anything.
+
+Beyond support for standard Markdown on presentation slides, GitPitch 
+delivers a [wide range of features](https://gitpitch.com/features) that cater
+to developers, speakers, educators, etc.
+
+To see a live slideshow demonstration of a wide range of features try
+out the GitPitch [Kitchen Sink](https://gitpitch.com/gitpitch/kitchen-sink).
+To dig deeper, see the [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki)
+for a detailed How-To.
+
+And don't forget to check out [GitPitch Pro Features](https://gitpitch.com/pro-features)
+to learn about working with **private Git repos** and to enjoy enhanced
+presentation features, including privacy, confidentiality, and team
+collaboration.
+
