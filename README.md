@@ -7,7 +7,7 @@ presentation, follow along with this short tutorial.
 
 > Tutorial also available for [GitLab](https://gitlab.com/gitpitch/in-60-seconds) and [Bitbucket](https://bitbucket.org/gitpitch/in-60-seconds) users.
 
-#### Step 1. Create **PITCHME.md**
+### Step 1. Create **PITCHME.md**
 
 Using your preferred code editor create a file called **PITCHME.md**, then add 
 and save the following Markdown content:
@@ -43,7 +43,7 @@ if you prefer. For this example, when GitPitch processes the Markdown content it
 will result in a simple presentation with just three slides.
 
 
-#### Step 2. Commit **PITCHME.md**
+### Step 2. Commit **PITCHME.md**
 
 Now add this file to your Git repo and push to GitHub:
 
@@ -53,7 +53,7 @@ git commit -m "Added my first GitPitch slideshow content."
 git push
 ```
 
-#### Step 3. Done!
+### Step 3. Done!
 
 Your GitPitch slideshow presentation is now waiting for you to share or present 
 at its public URL. To see a live demonstration of this slideshow presentation 
