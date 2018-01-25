@@ -60,7 +60,7 @@ at its public URL. To see a live demonstration of this slideshow presentation
 [click here](https://gitpitch.com/gitpitch/in-60-seconds). Your own 
 presentation should look a lot like this:
 
-![Slideshow-In-60-Seconds](/images/slideshow-in-60-seconds.jpg)
+![Slideshow-In-60-Seconds](/images/in-60-seconds.jpg)
 
 Immediately you can [download](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline) 
 your slideshow for offline presentation, 
