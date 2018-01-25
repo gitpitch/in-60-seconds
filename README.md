@@ -68,13 +68,17 @@ your slideshow for offline presentation,
 PDF document, or [share](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Sharing) 
 it on social media.
 
-#### Step 4. Promite, Pitch, or Present Absolutely Anything.
+### The Fastest Way from Idea to Presentation.
 
 Beyond support for standard Markdown on presentation slides, GitPitch 
 delivers a [wide range of features](https://gitpitch.com/features) that cater
 to developers, speakers, educators, etc.
 
-To see a live slideshow demonstration of a wide range of features try
+See the [Template Gallery](https://gitpitch.com/templates) for quickstart
+markdown presentaton templates. Simply clone, fork, or download the templates
+repo and start customizing the presentation markdown to reflect your needs.
+
+To view a live slideshow demonstration of a wide range of features try
 out the GitPitch [Kitchen Sink](https://gitpitch.com/gitpitch/kitchen-sink).
 To dig deeper, see the [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki)
 for a detailed How-To.
