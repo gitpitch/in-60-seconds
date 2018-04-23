@@ -45,7 +45,7 @@ Please take note of the following:
 1. The **PITCHME.md** file name is a new convention introduced by GitPitch
 1. The **PITCHME.md** file name is case sensitive
 1. The **PITCHME.md** file content is standard GitHub Flavored Markdown
-1. The `---` markdown fragment acts as a delimiter between your content on different slides
+1. The `---` markdown fragment acts as a slide delimiter that partitions your content
 
 For the sample markdown used in this tutorial, when GitPitch processes the sample **PITCHME.md** markdown content it will result in a simple presentation with just three slides.
 
@@ -65,7 +65,7 @@ At this point, the upstream version of your chosen repository on GitHub should h
 
 ### Step 3. Done!
 
-Your GitPitch slideshow presentation is now waiting for you to share or present at its public URL.
+After you `git-push`, you are done! Your GitPitch slideshow presentation is now waiting for you to share or present at its public URL.
 
 You can access your slideshow presentation on `gitpitch.com` by building a URL with the following structure:
 
@@ -110,4 +110,4 @@ out the GitPitch [Kitchen Sink](https://gitpitch.com/gitpitch/kitchen-sink).
 To dig deeper, see the [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki)
 for a detailed How-To.
 
-> And don't forget to check out [GitPitch Pro Features](https://gitpitch.com/pro-features) to learn how you can achieve even more with GitPitch using **GitPitch Desktop**, **GitPitch Surveys**, and **GitPitch Security**.
+And don't forget to check out [GitPitch Pro Features](https://gitpitch.com/pro-features) to learn how you can achieve even more with GitPitch using **GitPitch Desktop**, **GitPitch Surveys**, and **GitPitch Security**.
