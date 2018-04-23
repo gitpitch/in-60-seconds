@@ -7,7 +7,7 @@ presentation, follow along with this short tutorial.
 
 > Tutorial also available for [GitLab](https://gitlab.com/gitpitch/in-60-seconds) and [Bitbucket](https://bitbucket.org/gitpitch/in-60-seconds) users.
 
-### Step 1. Create a Repository on GitHub
+### Step 1. Create or Use-an-Existing Repository on GitHub
 
 Using an existing account on GitHub, either:
 
@@ -45,7 +45,7 @@ Please take note of the following:
 1. The **PITCHME.md** file name is a new convention introduced by GitPitch
 1. The **PITCHME.md** file name is case sensitive
 1. The **PITCHME.md** file content is standard GitHub Flavored Markdown
-1. The `---` markdown fragment acts as a slide delimiter that partitions your content
+1. The `---` markdown fragment acts as a slide delimiter that partitions your slideshow content
 
 For the sample markdown used in this tutorial, when GitPitch processes the sample **PITCHME.md** markdown content it will result in a simple presentation with just three slides.
 
@@ -67,7 +67,7 @@ At this point, the upstream version of your chosen repository on GitHub should h
 
 After you `git-push`, you are done! Your GitPitch slideshow presentation is now waiting for you to share or present at its public URL.
 
-You can access your slideshow presentation on `gitpitch.com` by building a URL with the following structure:
+You can build the public URL for your slideshow presentation on `gitpitch.com` using the following structure:
 
 ```
 https://gitpitch.com/$USER/$REPO/$BRANCH
