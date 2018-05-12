@@ -50,7 +50,7 @@ Please take note of the following:
 For the sample markdown used in this tutorial, when GitPitch processes the sample **PITCHME.md** markdown content it will result in a simple presentation with just three slides.
 
 
-### Step 2. Push **PITCHME.md** to your upstream GitHub Repository in the Cloud
+### Step 3. Push **PITCHME.md** to your upstream GitHub Repository in the Cloud
 
 At this point you have simply created one new file within your chosen repository. Now you need to add this file under Git version control and then push your local changes to your upstream repository on GitHub in the cloud:
 
@@ -63,7 +63,7 @@ git push
 At this point, the upstream version of your chosen repository on GitHub should have the new **PITCHME.md** file in it's root directory.
 
 
-### Step 3. Done!
+### Step 4. Done!
 
 After you `git-push`, you are done! Your GitPitch slideshow presentation is now waiting for you to share or present at its public URL.
 
