@@ -101,7 +101,7 @@ Beyond support for standard Markdown on presentation slides, GitPitch
 delivers a [wide range of features](https://gitpitch.com/features) that cater
 to developers, speakers, educators, etc.
 
-See the [Template Gallery](https://gitpitch.com/templates) for quickstart
+See the [Template Gallery](https://gitpitch.com/docs/the-template) for quickstart
 markdown presentaton templates. Simply fork or download the templates
 repo and start customizing the presentation markdown to reflect your needs.
 
