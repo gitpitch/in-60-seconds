@@ -313,6 +313,12 @@ congratulations!
 
 While this short tutorial only introduces you to a small number of available
 [GitPitch features](https://gitpitch.com/features) we hope what
-you have seen so far has made you eager to learn more. Now is your chance to
-jump straight back into the interactive GitPitch feature guides
+you have seen so far has made you eager to learn more.
+
+And here's one final enticement...a quick intro to **GitPitch Desktop**, the
+dedicated presentation tool for working offline on your desktop:
+
+![DESKTOP](assets/img/gitpitch-desktop.gif)
+
+OK. Now is your chance to jump straight back into the interactive GitPitch feature guides
 [here](https://gitpitch.com/docs/getting-started/tutorial).
