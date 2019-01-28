@@ -315,7 +315,7 @@ While this short tutorial only introduces you to a small number of available
 [GitPitch features](https://gitpitch.com/features) we hope what
 you have seen so far has made you eager to learn more. And here's one final
 enticement...a quick intro to **GitPitch Desktop**, the dedicated presentation
-for your desktop:
+tool for Linux, OSX, and Windows 10 [Pro + Enterprise].
 
 ![DESKTOP](assets/img/gitpitch-desktop.gif)
 
