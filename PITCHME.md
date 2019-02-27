@@ -7,14 +7,18 @@
 
 ## How do they live? What do they eat?
 
+@snap[west span-50]
 #### Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
+@snapend
 
+@snap[east]
 @ul[spaced]
 - Highly maintainable and testable
 - Loosely coupled
 - Independently deployable
 - Organized around business capabilities.
 @ulend
+@snapend
 
 <!-- ![](assets/img/presentation.png) -->
 
@@ -26,7 +30,7 @@
 @snapend
 
 @snap[east span-50]
-@ul[spaced text-white]
+@ul[spaced]
 - Costly initial setup
 - Automate testing and deployment for all services
 - Monitor all services
