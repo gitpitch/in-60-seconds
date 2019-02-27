@@ -1,20 +1,38 @@
-# Let's Get Started
+# Micro-services
+
+@snap[souht-east]
+#### By Luis Helder
 
 ---
 
-## Add Some Slide Candy
+## How do they live? What do they eat?
 
-![](assets/img/presentation.png)
+#### Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
+
+@ul[spaced]
+- Highly maintainable and testable
+- Loosely coupled
+- Independently deployable
+- Organized around business capabilities.
+@ulend
+
+<!-- ![](assets/img/presentation.png) -->
 
 ---
 @title[Customize Slide Layout]
 
 @snap[west span-50]
-## Customize Slide Content Layout
+## Micro-services are not a silver bullet
 @snapend
 
 @snap[east span-50]
-![](assets/img/presentation.png)
+@ul[spaced text-white]
+- Costly initial setup
+- Automate testing and deployment for all services
+- Monitor all services
+- Infrastructure costs may increase
+- Databases handling can pose a challenge
+@ulend
 @snapend
 
 ---?color=#E58537
