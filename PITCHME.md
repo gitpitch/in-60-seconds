@@ -7,10 +7,10 @@
 ![](assets/img/presentation.png)
 
 ---
-@title[Customize Slide Layout]
+@title[Dccumentation of an Open Source Product]
 
 @snap[west span-50]
-## Customize Slide Content Layout
+## Documentation of an Open Source Product
 @snapend
 
 @snap[east span-50]
