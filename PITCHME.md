@@ -1,48 +1,54 @@
-# Let's Get Started
+---?color=#111D39
+# Writing Day Recap
+
+Lauren Hirata, Senior Tech Writer
+---
+@snap[north span-100]
+## What's Write the Docs?
+@snapend
+
+@snap[west span-25]
+![IMAGE](assets/img/sticker-wtd-colors.png)
+@snapend
+
+@snap[east span-70]
+“**Write the Docs** is a global community of people who care about documentation.
+
+The Write the Docs conference includes Writing Day, traditional conference-style talks, an Unconference, and a job fair.”
+@snapend
 
 ---
 
-## Add Some Slide Candy
+## What's Writing Day?
 
-![](assets/img/presentation.png)
+“This event is to get a bunch of interesting people in a room together and have them work towards shared goals.”
+
+The vibe was like a Fixit Day.
 
 ---
-@title[Customize Slide Layout]
 
-@snap[west span-50]
-## Customize Slide Content Layout
-@snapend
+## Prepping for Writing Day
 
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
+@ul
 
----?color=#E58537
-@title[Add A Little Imagination]
+- Worked with Lucia to create usability testing for our docs search
+- Groomed our GitHub issues
+- Added our project description to the [official Writing Day page](https://www.writethedocs.org/conf/portland/2019/writing-day/#write-cockroachdb-docs)
+    - Amruta led this effort last year, so thank you for your pre-work!
+- Publicized our project on Write the Docs Slack
 
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
-@snapend
-
-@snap[west span-55]
-@ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
 @ulend
-@snapend
 
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
+---
 
----?image=assets/img/presenter.jpg
+## This is a new slide
 
-@snap[north span-100 headline]
-## Now It's Your Turn
-@snapend
+Blah!
 
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
-@snapend
+---
+
+## This is another slide
+
+- Blah
+- Blah
+- Blah
