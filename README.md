@@ -70,7 +70,7 @@ Using **your** slideshow URL, go ahead and open your new slide deck in the
 browser now. When you open your slide deck you should see the first sample
 slide that should look a lot like this screenshot:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.jpg)
 
 > For comparison purposes, the slideshow URL for the GitPitch In-60-Seconds sample presentation associated with the *gitpitch* GitHub account can be launched [here](https://gitpitch.com/gitpitch/in-60-seconds).
 
@@ -124,7 +124,7 @@ sample slide deck is shown here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.jpg)
 
 As you can see, this slide couldn't be much simpler. The slide uses standard
 markdown heading syntax to render text on the slide. The text is automatically
@@ -149,7 +149,7 @@ here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-2.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-2.jpg)
 
 This sample slide introduces the first use of a [slide delimiter](https://gitpitch.com/docs/getting-started/delimiters/). Slide
 delimiters are used to denote the starting point of each new slide in the
@@ -172,21 +172,25 @@ here:
 
 ```
 
----
+---?color=linear-gradient(180deg, white 75%, black 25%)
 
 @snap[west span-50]
-## Customize Slide Content Layout
+## Customize the Layout
 @snapend
 
 @snap[east span-50]
 ![](assets/img/presentation.png)
 @snapend
 
+@snap[south span-100 text-white]
+Snap Layouts let you create custom slide designs directly within your markdown.
+@snapend
+
 ```
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-3.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-3.jpg)
 
 What just happened? This sample slide introduces one of the most exciting
 and unique GitPitch features -
@@ -211,10 +215,10 @@ here:
 
 ```
 
----?color=#E58537
+---?color=linear-gradient(90deg, #E27924 65%, white 35%)
 
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
+@snap[north-west h4-white]
+#### And start presenting...
 @snapend
 
 @snap[west span-55]
@@ -234,7 +238,7 @@ here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-4.gif)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds.gif)
 
 I thought it was time we added a little *sparkle* and a splash of color to our
 slide deck ;-) This sample slide demonstrates a number of great features. We
@@ -246,14 +250,14 @@ Let's first look at the slide delimiter for this sample slide, it looks as
 follows:
 
 ```
----?color=#E58537
+---?color=linear-gradient(90deg, #E27924 65%, white 35%)
 ```
 
 As noted earlier, slide delimiters are used to denote the starting point of
 each new slide in the deck. But they can also be used to activate a whole range
 of slide-specific features. In this example, we are using
 [color delimiter syntax](https://gitpitch.com/docs/rich-media-features/color-backgrounds/) to
-assign a custom background color for our sample slide. This is just the
+assign a custom background color gradient for our sample slide. This is just the
 tip of the iceberg as *delimiters* can be used to render background images,
 video, color, gradients, and even
 [source-code](https://gitpitch.com/docs/code-features/presenting/) on slides.
@@ -274,7 +278,7 @@ here:
 
 ---?image=assets/img/presenter.jpg
 
-@snap[north span-100 headline]
+@snap[north span-100 h2-white]
 ## Now It's Your Turn
 @snapend
 
@@ -286,7 +290,7 @@ here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-5.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-9.jpg)
 
 The previous sample slide introduced us to the power and flexibility
 of slide *delimiters*. This slide demonstrates the use of
@@ -300,7 +304,7 @@ Again, if you look carefully at the sample *markdown* snippet for this slide
 you can see that the `@snap` tag syntax introduced by *snap-layouts* is taking
 advantage of a number of
 [custom CSS styles](https://gitpitch.com/docs/themes/custom/) - such as
-`span-100` and `headline` - to control the appearance of content displayed on
+`span-100` and `h2-white` - to control the appearance of content displayed on
 the slide. As a presentation author this features gives you almost unlimited flexibility to create slide decks that truly reflect your product or brand.
 
 <br>
