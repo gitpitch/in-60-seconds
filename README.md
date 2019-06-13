@@ -70,7 +70,7 @@ Using **your** slideshow URL, go ahead and open your new slide deck in the
 browser now. When you open your slide deck you should see the first sample
 slide that should look a lot like this screenshot:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.jpg)
 
 > For comparison purposes, the slideshow URL for the GitPitch In-60-Seconds sample presentation associated with the *gitpitch* GitHub account can be launched [here](https://gitpitch.com/gitpitch/in-60-seconds).
 
@@ -124,7 +124,7 @@ sample slide deck is shown here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.jpg)
 
 As you can see, this slide couldn't be much simpler. The slide uses standard
 markdown heading syntax to render text on the slide. The text is automatically
@@ -149,7 +149,7 @@ here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-2.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-2.jpg)
 
 This sample slide introduces the first use of a [slide delimiter](https://gitpitch.com/docs/getting-started/delimiters/). Slide
 delimiters are used to denote the starting point of each new slide in the
@@ -186,7 +186,7 @@ here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-3.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-3.jpg)
 
 What just happened? This sample slide introduces one of the most exciting
 and unique GitPitch features -
@@ -234,7 +234,7 @@ here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-4.gif)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds.gif)
 
 I thought it was time we added a little *sparkle* and a splash of color to our
 slide deck ;-) This sample slide demonstrates a number of great features. We
@@ -286,7 +286,7 @@ here:
 
 This *markdown* snippet renders as follows:
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-5.png)
+![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-9.jpg)
 
 The previous sample slide introduced us to the power and flexibility
 of slide *delimiters*. This slide demonstrates the use of
