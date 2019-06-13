@@ -172,14 +172,18 @@ here:
 
 ```
 
----
+---?color=linear-gradient(180deg, white 75%, black 25%)
 
 @snap[west span-50]
-## Customize Slide Content Layout
+## Customize the Layout
 @snapend
 
 @snap[east span-50]
 ![](assets/img/presentation.png)
+@snapend
+
+@snap[south span-100 text-white]
+Snap Layouts let you create custom slide designs directly within your markdown.
 @snapend
 
 ```
@@ -211,10 +215,10 @@ here:
 
 ```
 
----?color=#E58537
+---?color=linear-gradient(90deg, #E27924 65%, white 35%)
 
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
+@snap[north-west h4-white]
+#### And start presenting...
 @snapend
 
 @snap[west span-55]
@@ -246,7 +250,7 @@ Let's first look at the slide delimiter for this sample slide, it looks as
 follows:
 
 ```
----?color=#E58537
+---?color=linear-gradient(90deg, #E27924 65%, white 35%)
 ```
 
 As noted earlier, slide delimiters are used to denote the starting point of
@@ -274,7 +278,7 @@ here:
 
 ---?image=assets/img/presenter.jpg
 
-@snap[north span-100 headline]
+@snap[north span-100 h2-white]
 ## Now It's Your Turn
 @snapend
 
@@ -300,7 +304,7 @@ Again, if you look carefully at the sample *markdown* snippet for this slide
 you can see that the `@snap` tag syntax introduced by *snap-layouts* is taking
 advantage of a number of
 [custom CSS styles](https://gitpitch.com/docs/themes/custom/) - such as
-`span-100` and `headline` - to control the appearance of content displayed on
+`span-100` and `h2-white` - to control the appearance of content displayed on
 the slide. As a presentation author this features gives you almost unlimited flexibility to create slide decks that truly reflect your product or brand.
 
 <br>
