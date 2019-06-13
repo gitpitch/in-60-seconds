@@ -257,7 +257,7 @@ As noted earlier, slide delimiters are used to denote the starting point of
 each new slide in the deck. But they can also be used to activate a whole range
 of slide-specific features. In this example, we are using
 [color delimiter syntax](https://gitpitch.com/docs/rich-media-features/color-backgrounds/) to
-assign a custom background color for our sample slide. This is just the
+assign a custom background color gradient for our sample slide. This is just the
 tip of the iceberg as *delimiters* can be used to render background images,
 video, color, gradients, and even
 [source-code](https://gitpitch.com/docs/code-features/presenting/) on slides.
