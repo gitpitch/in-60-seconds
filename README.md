@@ -215,7 +215,7 @@ here:
 
 ```
 
----?color=linear-gradient(90deg, #E27924 65%, white 35%)
+---?color=linear-gradient(90deg, #5384AD 65%, white 35%)
 
 @snap[north-west h4-white]
 #### And start presenting...
