@@ -250,7 +250,7 @@ Let's first look at the slide delimiter for this sample slide, it looks as
 follows:
 
 ```
----?color=linear-gradient(90deg, #E27924 65%, white 35%)
+---?color=linear-gradient(90deg, #5384AD 65%, white 35%)
 ```
 
 As noted earlier, slide delimiters are used to denote the starting point of
