@@ -4,7 +4,7 @@
 
 ## Add Some Slide Candy
 
-![](assets/img/presentation.png)
+![IMAGE](assets/img/presentation.png)
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
@@ -14,7 +14,7 @@
 @snapend
 
 @snap[east span-50]
-![](assets/img/presentation.png)
+![IMAGE](assets/img/presentation.png)
 @snapend
 
 @snap[south span-100 text-white]
@@ -29,7 +29,7 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 @snapend
 
 @snap[west span-55]
-@ul[spaced text-white]
+@ul[list-spaced-bullets text-white text-09]
 - You will be amazed
 - What you can achieve
 - *With a little imagination...*
