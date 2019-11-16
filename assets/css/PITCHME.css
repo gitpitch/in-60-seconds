@@ -6,3 +6,6 @@
   box-shadow:0 14px 20px 0 rgba(0,0,0,0.2),0 10px 24px 0 rgba(0,0,0,0.19) !important;
 }
 
+#gp-logo {
+  display: none;
+}
