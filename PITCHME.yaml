@@ -7,8 +7,8 @@
 #
 theme : template
 
-theme-background : [ "#FFF" ]
-theme-headline   : [ "Raleway", "#5289F7", "none" ]
+theme-background : [ "#092247" ]
+theme-headline   : [ "Raleway", "#3ce6bd", "none" ]
 theme-byline     : [ "Raleway", "#111111", "none" ]
 theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
 theme-links      : [ "#5289F7", "#5254F7" ]
@@ -32,8 +32,8 @@ theme-override: assets/css/PITCHME.css
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : assets/img/logo.png
-logo-position : top-left
+# logo : assets/img/logo.png
+# logo-position : top-left
 
 #
 # Layout Setting
@@ -45,7 +45,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+# footnote : "GitPitch - The Fastest Way From Idea To Presentation"
 
 #
 # Published Setting
@@ -57,6 +57,6 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch In 60 Seconds"
+title : "The Power of Hooks"
 description : "A short tutorial introducing the power and simplicity of GitPitch, the markdown presentation service on Git."
 thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
