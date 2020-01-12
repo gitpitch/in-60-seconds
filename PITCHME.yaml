@@ -5,16 +5,17 @@
 # Theme Template
 # Doc: https://gitpitch.com/docs/themes/default
 #
-theme : template
+theme            : template
 
-theme-background : [ "#FFF" ]
-theme-headline   : [ "Raleway", "#5289F7", "none" ]
-theme-byline     : [ "Raleway", "#111111", "none" ]
-theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
-theme-links      : [ "#5289F7", "#5254F7" ]
-theme-code       : [ "Source Code Pro" ]
-theme-controls   : [ "#484848" ]
+theme-background : [ "#000000" ]
+theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
+theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
+theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
+theme-links      : [ "#F1C40F", "#5254F7" ]
+theme-code       : [ "Source Code Pro", "100", "120" ]
+theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
+layout           : center
 
 #
 # Highlight Setting
@@ -58,5 +59,6 @@ published : true
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
 title : "GitPitch In 60 Seconds"
-description : "A short tutorial introducing the power and simplicity of GitPitch, the markdown presentation service on Git."
+description : "A short tutorial introducing GitPitch Markdown Presentations for Developers."
 thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
+

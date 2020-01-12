@@ -1,43 +1,47 @@
-# Let's Get Started
+# Let's Get **Started**
 
 ---
 
-## Add Some Slide Candy
+### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)
 
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
 
-@snap[west span-50]
+@snap[west span-55]
 ## Customize the Layout
 @snapend
 
-@snap[east span-50]
+@snap[north-east span-45]
 ![IMAGE](assets/img/presentation.png)
 @snapend
 
-@snap[south span-100 text-white]
+@snap[south span-100]
 Snap Layouts let you create custom slide designs directly within your markdown.
 @snapend
 
----?color=linear-gradient(90deg, #5384AD 65%, white 35%)
+---
 @title[Add A Little Imagination]
 
-@snap[north-west h4-white]
-#### And start presenting...
+@snap[north-west span-50 text-center]
+#### Engage your Audience
 @snapend
 
 @snap[west span-55]
-@ul[list-spaced-bullets text-white text-09]
+@ul[list-spaced-bullets text-09]
 - You will be amazed
 - What you can achieve
-- With a little imagination...
-- And **GitPitch Markdown**
+- With a **little imagination**
+- And GitPitch Markdown
 @ulend
 @snapend
 
 @snap[east span-45]
+![IMAGE](assets/img/conference.png)
+@snapend
+
+@snap[south span-100 bg-black fragment]
 @img[shadow](assets/img/conference.png)
 @snapend
 
@@ -66,12 +70,13 @@ REFERENCES "forum" ("id");
 @snapend
 
 
----?image=assets/img/presenter.jpg
+---?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
 
-@snap[north span-100 h2-white]
-## Now It's Your Turn
+@snap[east span-50 text-center]
+## Now It's **Your** Turn
 @snapend
 
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
+@snap[south-east span-50 text-center text-06]
+[Download GitPitch Desktop @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
 @snapend
+
