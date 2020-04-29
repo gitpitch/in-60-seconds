@@ -2,10 +2,15 @@ version: 2.1
 jobs:
   build:
     docker: 
-      - image: circleci/node:4.8.2
+      - image: gitpitch/desktop:pro
+        auth:
+          username: davidmrussell
+          password: $GITPITCH_DOCKERHUB_PASSWORD
+    working_directory: /repo
     steps:
       - checkout
       - run: echo "Hello, World!"
       - run: pwd
       - run: ls -slrt
       - run: ls -slrt /
+      - run: ls -slrt /desktop
