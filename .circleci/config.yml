@@ -9,7 +9,6 @@ jobs:
     working_directory: /repo
     steps:
       - checkout
-      - run: /gitpitchci/bin/ci -Dconfig.file=/gitpitchci/conf/gitpitch.conf -Dhttp.port=${PORT}
       - run: /gitpitchci/start.sh
       - store_artifacts:
           path: /gitpitch/artifacts
