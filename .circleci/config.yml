@@ -1,9 +1,6 @@
 version: 2.1
 jobs:
   build:
-    shell: /bin/sh -leo pipefail
-    environment:
-      - BASH_ENV: /etc/profile
     docker: 
       - image: gitpitch/ci:latest
         auth:
@@ -12,8 +9,12 @@ jobs:
     working_directory: /repo
     steps:
       - checkout
+      - run: echo $BASH_ENV
       - run: cat /etc/profile
       - run: ls -slrt /etc/profile
+      - run: echo $GITPITCH_CI_GEN_TARGET
+      - run: source /etc/profile
+      - run: echo $GITPITCH_CI_GEN_TARGET
       - run: /gitpitchci/start.sh
       - store_artifacts:
           path: /gitpitch/artifacts
