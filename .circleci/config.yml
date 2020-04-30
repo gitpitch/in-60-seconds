@@ -13,17 +13,17 @@ jobs:
     steps:
       - checkout
       - run:
-        name: "echo GITPITCH_CI_GEN_TARGET"
-        command: |
-            echo $GITPITCH_CI_GEN_TARGET
+          name: "echo GITPITCH_CI_GEN_TARGET"
+          command: |
+              echo $GITPITCH_CI_GEN_TARGET
       - run:
-        name: "echo GITPITCH_CI_GEN_TYPE"
-        command: |
-            echo $GITPITCH_CI_GEN_TYPE
+          name: "echo GITPITCH_CI_GEN_TYPE"
+          command: |
+              echo $GITPITCH_CI_GEN_TYPE
       - run:
-        name: "echo GITPITCH_CI_GEN_AGENTS"
-        command: |
-            echo $GITPITCH_CI_GEN_AGENTS
+          name: "echo GITPITCH_CI_GEN_AGENTS"
+          command: |
+              echo $GITPITCH_CI_GEN_AGENTS
       - run: /gitpitchci/start.sh
       - store_artifacts:
           path: /gitpitch/artifacts
