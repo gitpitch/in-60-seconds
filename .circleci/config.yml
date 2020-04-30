@@ -1,6 +1,9 @@
 version: 2.1
 jobs:
   build:
+    shell: /bin/sh -leo pipefail
+    environment:
+      - BASH_ENV: /etc/profile
     docker: 
       - image: gitpitch/ci:latest
         auth:
