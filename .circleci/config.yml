@@ -6,6 +6,9 @@ jobs:
         auth:
           username: davidmrussell
           password: $TEST_DOCKERHUB_PASSWORD
+    shell: /bin/sh -leo pipefail
+    environment:
+      - BASH_ENV: /etc/profile
     working_directory: /repo
     steps:
       - checkout
