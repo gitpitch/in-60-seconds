@@ -9,6 +9,7 @@ jobs:
     shell: /bin/sh -leo pipefail
     environment:
       - BASH_ENV: /etc/profile
+    working_directory: /repo
     steps:
       - checkout
       - run:
