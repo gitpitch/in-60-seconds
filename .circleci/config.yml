@@ -12,6 +12,8 @@ jobs:
     working_directory: /repo
     steps:
       - checkout
+      - run: cat /etc/profile
+      - run: ls -slrt /etc/profile
       - run: /gitpitchci/start.sh
       - store_artifacts:
           path: /gitpitch/artifacts
