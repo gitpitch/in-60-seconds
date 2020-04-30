@@ -11,4 +11,4 @@ jobs:
       - checkout
       - run: /gitpitchci/start.sh
       - store_artifacts:
-        path: /gitpitch/artifacts
+          path: /gitpitch/artifacts
