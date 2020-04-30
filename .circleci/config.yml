@@ -10,9 +10,5 @@ jobs:
     steps:
       - checkout
       - run: /gitpitchci/start.sh
-      - persist_to_workspace:
-        root: /gitpitch
-        paths:
-          - artifacts
       - store_artifacts:
         path: /gitpitch/artifacts
