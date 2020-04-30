@@ -2,15 +2,17 @@ version: 2.1
 jobs:
   build:
     docker: 
-      - image: gitpitch/desktop:pro
+      - image: gitpitch/ci:latest
         auth:
           username: davidmrussell
-          password: $GITPITCH_DOCKERHUB_PASSWORD
+          password: $TEST_DOCKERHUB_PASSWORD
     working_directory: /repo
     steps:
       - checkout
-      - run: echo "Hello, World!"
-      - run: pwd
-      - run: ls -slrt
-      - run: ls -slrt /
-      - run: ls -slrt /desktop
+      - run: /gitpitchci/start.sh
+      - persist_to_workspace:
+        root: /gitpitch
+        paths:
+          - artifacts
+      - store_artifacts:
+        path: /gitpitch/artifacts
