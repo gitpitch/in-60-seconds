@@ -6,21 +6,24 @@ jobs:
         auth:
             username: davidmrussell
             password: $TEST_DOCKERHUB_PASSWORD
-        environment:
-            GITPITCH_CI_GEN_TARGET: $GITPITCH_CI_GEN_TARGET
-            GITPITCH_CI_GEN_TYPE: $GITPITCH_CI_GEN_TYPE
-            GITPITCH_CI_GEN_AGENTS: $GITPITCH_CI_GEN_AGENTS
     shell: /bin/sh -leo pipefail
     environment:
       - BASH_ENV: /etc/profile
     working_directory: /repo
     steps:
       - checkout
-      - run: echo $GITPITCH_CI_GEN_TARGET
-      - run: echo $BASH_ENV
-      - run: cat $BASH_ENV
-      - run: source $BASH_ENV
-      - run: echo $GITPITCH_CI_GEN_TARGET
+      - run:
+        name: "echo GITPITCH_CI_GEN_TARGET"
+        command: |
+            echo $GITPITCH_CI_GEN_TARGET
+      - run:
+        name: "echo GITPITCH_CI_GEN_TYPE"
+        command: |
+            echo $GITPITCH_CI_GEN_TYPE
+      - run:
+        name: "echo GITPITCH_CI_GEN_AGENTS"
+        command: |
+            echo $GITPITCH_CI_GEN_AGENTS
       - run: /gitpitchci/start.sh
       - store_artifacts:
           path: /gitpitch/artifacts
