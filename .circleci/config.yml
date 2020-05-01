@@ -24,7 +24,7 @@ jobs:
           name: "echo GITPITCH_CI_AGENTS"
           command: |
               echo $GITPITCH_CI_AGENTS
-      - run: /gitpitchci/start.sh DEFAULT PDF
+      - run: /gitpitchci/start.sh $GITPITCH_CI_TARGET $GITPITCH_CI_TYPE
       - store_artifacts:
           path: /gitpitch/artifacts
       - persist_to_workspace:
