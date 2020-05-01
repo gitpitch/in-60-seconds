@@ -13,18 +13,18 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "echo GITPITCH_CI_GEN_TARGET"
+          name: "echo GITPITCH_CI_TARGET"
           command: |
-              echo $GITPITCH_CI_GEN_TARGET
+              echo $GITPITCH_CI_TARGET
       - run:
-          name: "echo GITPITCH_CI_GEN_TYPE"
+          name: "echo GITPITCH_CI_TYPE"
           command: |
-              echo $GITPITCH_CI_GEN_TYPE
+              echo $GITPITCH_CI_TYPE
       - run:
-          name: "echo GITPITCH_CI_GEN_AGENTS"
+          name: "echo GITPITCH_CI_AGENTS"
           command: |
-              echo $GITPITCH_CI_GEN_AGENTS
-      - run: /gitpitchci/start.sh
+              echo $GITPITCH_CI_AGENTS
+      - run: /gitpitchci/start.sh $GITPITCH_CI_TARGET $GITPITCH_CI_TYPE
       - store_artifacts:
           path: /gitpitch/artifacts
       - persist_to_workspace:
