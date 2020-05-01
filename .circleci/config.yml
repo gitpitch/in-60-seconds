@@ -9,7 +9,7 @@ jobs:
     working_directory: /repo
     steps:
       - checkout
-      - run: /gitpitchci/start.sh $GITPITCH_CI_TARGET $GITPITCH_CI_TYPE
+      - run: /gitpitchci/start.sh
       - store_artifacts:
           path: /gitpitch/artifacts
       - persist_to_workspace:
