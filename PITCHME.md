@@ -6,6 +6,20 @@ With GitPitch Custom Fonts
 
 ---
 
+@snap[north span-100 font-ubuntu text-gray text-smallcaps text-08]
+GitPitch ships with approximately 20 built-in system fonts
+@snapend
+
+@snap[midpoint span-100 fragment]
+## And now there's support for **unlimited** custom fonts!
+@snapend
+
+---
+
+### Activate any @css[woff-shout](woff) or @css[woff2-shout](woff2) font<br>for your GitPitch slide decks<br>including any @css[font-Londrina-Outline](Google Web Font)...
+
+---
+
 ### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)

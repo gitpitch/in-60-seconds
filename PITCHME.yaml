@@ -1,4 +1,4 @@
-# GitPitch In-60-Seconds - A Very Short Tutorial.
+# GitPitch Custom Fonts Demo
 
 custom-fonts : [
   "fonts/Permanent-Marker.woff2",
@@ -12,10 +12,10 @@ custom-fonts : [
 # Doc: https://gitpitch.com/docs/themes/default
 #
 theme            : template
-theme-background : [ "#000000" ]
-theme-headline   : [ "Permanent-Marker", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
-theme-byline     : [ "Aladin", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
-theme-text       : [ "Handlee", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
+theme-background : [ "#1A0420" ]
+theme-headline   : [ "Permanent-Marker", "#F2E3A1", "none", "#FFFFFF", "100", "120", "15" ]
+theme-byline     : [ "Aladin", "#FFFFFF", "none", "#F2E3A1", "100", "110", "15" ]
+theme-text       : [ "Handlee", "#FFFFFF", "none", "#AEC994", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
 theme-code       : [ "Victor Mono Italic", "100", "120" ]
 highlight        : tomorrow
@@ -54,7 +54,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "GitPitch Custom Fonts for Beautiful Typography"
 
 #
 # Published Setting
@@ -66,7 +66,7 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch In 60 Seconds"
-description : "A short tutorial introducing GitPitch Markdown Presentations for Developers."
-thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
+title : "GitPitch Custom Fonts"
+description : "Make GitPitch slide decks more striking, memorable, and directly aligned with your own brand using custom fonts."
+thumbnail : assets/img/gitpitch-custom-fonts-thumb.jpg
 
