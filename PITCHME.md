@@ -1,5 +1,9 @@
 # Let's Get **Started**
 
+@snap[south span-100 font-Aladin]
+With GitPitch Custom Fonts
+@snapend
+
 ---
 
 ### Add Some Slide Candy

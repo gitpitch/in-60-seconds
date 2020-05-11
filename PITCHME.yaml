@@ -1,20 +1,28 @@
 # GitPitch In-60-Seconds - A Very Short Tutorial.
-#
+
+custom-fonts : [
+  "fonts/Permanent-Marker.woff2",
+  "fonts/Londrina-Outline.woff2",
+  "fonts/Aladin.woff2",
+  "fonts/Handlee.woff2"
+]
 
 #
 # Theme Template
 # Doc: https://gitpitch.com/docs/themes/default
 #
 theme            : template
-
 theme-background : [ "#000000" ]
-theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
-theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
-theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
+theme-headline   : [ "Permanent-Marker", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
+theme-byline     : [ "Aladin", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
+theme-text       : [ "Handlee", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
-theme-code       : [ "Source Code Pro", "100", "120" ]
+theme-code       : [ "Victor Mono Italic", "100", "120" ]
+highlight        : tomorrow
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
+logo             : assets/img/logo.png
+logo-position    : top-left
 layout           : center
 
 #
