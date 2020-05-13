@@ -1,0 +1,23 @@
+name: GitPitch CI
+
+on:
+  push:
+    branches:
+      - github-actions-setup
+
+jobs:
+  gitpitch-ci:
+    runs-on: ubuntu-latest
+    container: gitpitch/ci:latest
+    steps:
+      - uses: actions/checkout@v2
+        name: 'Checkout Repo'
+        env:
+        GITHUB_WORKSPACE: "/repo"
+      - run: /gitpitchci/start.sh
+      - uses: actions/upload-artifact@v1
+        with:
+          name: gitpitchci
+          path: /gitpitch/artifacts
+
+
