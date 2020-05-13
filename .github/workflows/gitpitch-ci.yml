@@ -5,15 +5,18 @@ on:
     branches:
       - github-actions-setup
 
+
 jobs:
   gitpitch-ci:
+    env:
+      GITPITCHCI_TARGET_: "ALL"
+      GITPITCHCI_TYPE: "ALL"
+      GITHUB_WORKSPACE: "/repo"
     runs-on: ubuntu-latest
     container: gitpitch/ci:latest
     steps:
       - uses: actions/checkout@v2
         name: 'Checkout Repo'
-        env:
-        GITHUB_WORKSPACE: "/repo"
       - run: /gitpitchci/start.sh
       - uses: actions/upload-artifact@v1
         with:
