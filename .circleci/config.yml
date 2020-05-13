@@ -2,9 +2,9 @@ version: 2.1
 jobs:
   build:
     branches:
-        only:
-          - master
-          - /circleci-.*/
+      only:
+        - master
+        - /circleci-.*/
     docker: 
       - image: gitpitch/ci:latest
         auth:
