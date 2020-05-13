@@ -1,6 +1,9 @@
 version: 2.1
 jobs:
   build:
+    branches:
+      only:
+        - master
     docker: 
       - image: gitpitch/ci:latest
         auth:
