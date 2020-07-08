@@ -1,4 +1,16 @@
-# Let's Get **Started**
+# Github the industry standard
+
+## What is Git
+### Git (/ɡɪt/) is a distributed version-control system for tracking changes in source code during software development.
+### It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. 
+### Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.[12] Its current maintainer since 2005 is Junio Hamano. As with most other distributed version-control systems, and unlike most client–server systems, every Git directory on every computer is a full-fledged repository with complete history and full version-tracking abilities, independent of network access or a central server.[13] Git is free and open-source software distributed under the terms of the GNU General Public License version 2.
+# Managing code for instructors and students
+
+# Creating an assignment
+
+# automation features for auto-grading    
 
 ---
 
