@@ -1,9 +1,4 @@
-[drag=58, drop=22 20, rotate=-5, bg=#5BC3EB, border=4px solid #232B2B]
-[drag=58, drop=22 20, rotate=0, bg=#E67E22, border=4px solid #232B2B]
-[drag=58, drop=22 20, rotate=5, bg=#232B2B]
-[drag=58, drop=22 20, set=h1-white, fit=1.1]
-
-# GitPitch
+@md[title=GitPitch](assets/md/splash.md)
 
 [drag=10 10, drop=-25 60, opacity=0.7, set=h2-silver fragment, fit=1, animate=bouncedown, filter=contrast]
 
