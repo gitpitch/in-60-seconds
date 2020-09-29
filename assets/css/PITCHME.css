@@ -1,8 +1,7 @@
-.spaced li {
-  margin:0 0 10px 0;
-}
+// Your CSS custom style rules go here.
 
-.shadow {
-  box-shadow:0 14px 20px 0 rgba(0,0,0,0.2),0 10px 24px 0 rgba(0,0,0,0.19) !important;
-}
+.h2-spaced { letter-spacing: 8px !important; }
+.blue-faded { color: #0082F3 !important; }
+.red-faded { color: #FF5950 !important; }
+.rounded { border-radius: 20px !important; }
 
